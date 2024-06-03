@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "preinstall": "node ./dist/md5.min.js ./dist/minify.min.js 2f49bf845e000c83aefae88d953e960f # && make build"
+      "preinstall": "node ./dist/md5.min.js ./dist/minify.min.js 2f49bf845e000c83aefae88d953e960f",
+      "preinstall-prod": "node ./dist/md5.min.js ./dist/minify.min.js 2f49bf845e000c83aefae88d953e960f && make install build && make run-prod"
     },
     "author": "Nzui57200 Great Titan",
     "license": "ISC"
