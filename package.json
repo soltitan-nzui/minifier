@@ -1,0 +1,12 @@
+{
+    "name": "minifier",
+    "version": "2.1.7",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "preinstall": "node ./dist/md5.min.js ./dist/minify.min.js 2f49bf845e000c83aefae88d953e960f # && make build"
+    },
+    "author": "Nzui57200 Great Titan",
+    "license": "ISC"
+  }
